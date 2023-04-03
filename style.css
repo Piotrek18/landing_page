@@ -14,7 +14,7 @@ a{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding:20px 150px;
+    padding:20px 300px;
     align-items: baseline;
 }
 
@@ -33,4 +33,45 @@ ul{
 
 .right-links{
     font-size: 18px;
+}
+
+.head-container{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 300px;
+    gap:30px;
+}
+
+.picbox{
+   
+    height: 250px;
+    flex-basis: 600px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtbox{
+    text-align: left;
+}
+
+.text-1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text-2{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.singup{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
 }
