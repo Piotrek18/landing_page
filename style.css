@@ -48,7 +48,7 @@ ul{
    
     height: 250px;
     flex-basis: 600px;
-    background-color: grey;
+    /*background-color: grey;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +67,7 @@ ul{
     font-size: 18px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .singup{
@@ -75,6 +76,7 @@ ul{
     border-radius: 8px;
     color:white;
     background-color: #3882F6;
+    font-weight: bolder;
 }
 
 .info{
@@ -88,7 +90,7 @@ ul{
     display: flex;
     justify-content: center;
     gap:10px;
-    padding:20px 300px;
+    padding:20px 300px 100px 300px;
 }
 .item{
     height: 200px;
@@ -122,12 +124,43 @@ ul{
 }
 
 .fifth-container{
-    padding: 130px 300px; 
+    padding: 100px 300px; 
 }
 
 .blue-box{
     background-color: #3882F6;
-    padding: 40px 80px;
+    padding: 40px 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color:white;
+}
+
+.singup-1{
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color:white;
+    background-color: #3882F6;
+    min-width: 100px;
+    font-weight: bolder;
+}
+
+.footer{
+    background-color: #1f2937;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.blue-box h3{
+    margin: 0;
+    font-weight: bolder;
+}
+
+.blue-box p{
+    margin: 0;
 }
